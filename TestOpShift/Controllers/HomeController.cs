@@ -17,7 +17,7 @@ namespace TestOpShift.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Hi Apilcation";
 
             return View();
         }
