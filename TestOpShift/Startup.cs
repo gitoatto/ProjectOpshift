@@ -32,13 +32,13 @@ namespace TestOpShift
                 app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
             }
-            else
+            else 
             {
                 app.UseExceptionHandler("/Home/Error");
             }
 
             app.UseStaticFiles();
-
+              
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
